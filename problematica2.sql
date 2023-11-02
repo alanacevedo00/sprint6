@@ -1,4 +1,4 @@
-DROP VIEW vista_clientes;
+
 CREATE VIEW vista_clientes AS
 SELECT customer_id, branch_id, customer_name, customer_surname, customer_DNI, dob
 FROM cliente
